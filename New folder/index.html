@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoulNote 💫</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <button id="themeToggle" class="theme-toggle">🌙</button>
+
+  <div class="container">
+    <aside class="sidebar">
+      <h2>My Notes</h2>
+      <button id="newNoteBtn">+ New Note</button>
+      <div id="notesList" class="notes-list">
+        </div>
+    </aside>
+
+    <main class="editor">
+      <div class="editor-header">
+        <h2 id="noteTitle">Select or Create a Note</h2>
+        <button id="deleteNoteBtn" class="delete-btn">🗑️ Delete</button>
+      </div>
+      <textarea id="noteContent" placeholder="Select a note to start typing..." disabled></textarea>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
